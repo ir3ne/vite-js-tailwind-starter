@@ -1,1 +1,1 @@
-console.log('Welcome to Vite JS Starter!');
+console.log('Welcome to Vite JS Starter!')

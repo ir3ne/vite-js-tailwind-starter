@@ -6,7 +6,21 @@
 
 <h1>Vite JS Starter with Tailwindcss</h1>
 <h5>This is a small JS starter which uses Vite and Tailwindcss</h5>
-<p>You can use it to quickly test new features locally and also do experiments. The purpose of this starter it's to make super quick all the basic setup needed to use plain JS or packages to add.</p>
+<p>You can use it to quickly test new features locally and also do experiments.
+The purpose of this starter it's to make super quick all the basic setup needed to use plain JS or packages to add.</p>
+
+### Usage notes
+
+This project uses [`pnpm`](https://pnpm.io) as package manager and enforces its use.
+
+To install dependencies:
+
+```bash
+pnpm install
+```
+
+To prevent accidental usage of npm or yarn, the project includes a preinstall script using `only-allow`.
+If you try to install with another package manager, the process will fail with an informative error.
 
 #### Benefits of using Vite
 
