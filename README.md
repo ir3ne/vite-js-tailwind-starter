@@ -9,6 +9,14 @@
 <p>You can use it to quickly test new features locally and also do experiments.
 The purpose of this starter it's to make super quick all the basic setup needed to use plain JS or packages to add.</p>
 
+### Tooling
+
+This starter includes:
+
+- [`pnpm`](https://pnpm.io) as the enforced package manager
+- [`ESLint`](https://eslint.org) using the new Flat Config format
+- [`Prettier`](https://prettier.io) for consistent code formatting
+
 ### Usage notes
 
 This project uses [`pnpm`](https://pnpm.io) as package manager and enforces its use.
